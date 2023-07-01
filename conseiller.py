@@ -31,4 +31,4 @@ class conseiller:
         self.nom = newNom
 
     def __str__(self):
-        return f'matricule '
+        return f'matricule {self.matricule} nom {self.nom}'
